@@ -1,0 +1,177 @@
+/* font-family: 'Alata', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+ */
+
+h1{
+  font-family: 'Alata', sans-serif;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Alata', sans-serif;
+
+}
+h3{
+  font-family: 'Alata', sans-serif;
+  font-size: 1.2rem;
+}
+
+h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+ .container-fluid {
+   padding: 3% 4% 2%;
+ }
+
+ #title {
+   background-color: #fbd46d;
+ }
+
+ /* Nav Bar */
+ .name{
+   width: 8%;
+ }
+
+.nav-link{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.name-position{
+  text-align: center;
+}
+
+.nav-title{
+  margin: auto;
+}
+
+.navbar-toggler {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
+/* Title */
+.header-content{
+  padding: 20px;
+}
+
+.myface{
+  width: 30%;
+  padding-bottom: 5%;
+}
+
+.title-words {
+  padding: 1rem 0 0;
+  text-align: center;
+}
+
+/* Content */
+#inspiration {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.content-desc {
+  padding-top:5%;
+
+}
+
+.fa-heartbeat{
+  padding-top: 7%;
+  font-size: 3rem;
+  color: #4f8a8b;
+}
+
+.fa-heartbeat:hover {
+  color: #222831;
+}
+
+.quote {
+  padding: 3% 0 5%;
+  font-family: 'Alata', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Skills */
+#skills {
+  background-color: #222831;
+  text-align: center;
+}
+
+.skills-title{
+  color: white;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.skills-intro {
+  padding: 5% 0 7%;
+  color: white;
+}
+
+.skillset {
+  color: white;
+  padding: 0 20% 5%;
+}
+
+.icon-2 {
+  padding: 2% 0 4%;
+  font-size: 2.5rem;
+  color: #fbd46d;
+}
+
+.icon-2:hover {
+  color: #eeeeee;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #4f8a8b;
+  text-align: center;
+}
+
+.test-title{
+  color: white;
+  margin: auto;
+  padding-top: 5%;
+  f
+}
+
+.review-subtitle {
+  padding: 0.5% 0 5%;
+  color: white;
+}
+
+.testimonial {
+  width: 20%;
+  padding: 5% 2% 5%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Socials */
+#contactme {
+  background-color: #fbd46d;
+  text-align: center;
+}
+.social{
+  width: 5%;
+}
+
+.links {
+  padding: 0 0 2%;
+}
+
+.contact {
+  padding-top: 3%;
+
+}
