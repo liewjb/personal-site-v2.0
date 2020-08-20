@@ -21,6 +21,10 @@ h4{
   font-size: 1.4rem;
 }
 
+h5{
+  font-family: 'Alata', sans-serif;
+
+}
 p {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -141,7 +145,10 @@ p {
   color: white;
   margin: auto;
   padding-top: 5%;
-  f
+}
+
+.testimonial-title{
+  padding: 5% 0 0;
 }
 
 .review-subtitle {
@@ -157,6 +164,47 @@ p {
 .carousel-item{
   padding: 7% 15%;
 }
+
+.school-icon{
+  width: 30%;
+  padding: 0 5%;
+}
+
+.schools {
+  padding: 3% 0 5%;
+}
+
+/* Hobbies */
+#hobbies {
+  background-color: # #eeeeee;
+  text-align: center;
+}
+
+
+.hobbies-intro {
+  padding: 5% 0 0;
+}
+.hobbies-title{
+  margin: auto;
+  padding-top: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+}
+
+.hobbies-subtitle {
+  padding: 0.5% 0 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-body{
+  background-color: #eeeeee;
+}
+
+.container {
+  padding: 0 5%;
+  padding-bottom: 7%
+}
+
 
 /* Socials */
 #contactme {
@@ -174,4 +222,30 @@ p {
 .contact {
   padding-top: 3%;
 
+}
+
+/* Price */
+#price {
+  background-color: #222831;
+  text-align: center;
+}
+
+.price-title{
+  color: white;
+  margin: auto;
+  padding: 5% 0 0;
+}
+
+.price-subtitle {
+  color: white;
+  padding: 0 0 7%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-0 {
+  font-family: 'Alata', sans-serif;
+}
+
+.list-unstyled {
+  font-family: 'Roboto Condensed', sans-serif;
 }
