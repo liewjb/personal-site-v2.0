@@ -249,3 +249,58 @@ p {
 .list-unstyled {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+/* Media Query */
+@media (min-width: 1028px){
+  h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-family: 'Alata', sans-serif;
+
+  }
+  h3{
+    font-family: 'Alata', sans-serif;
+    font-size: 2.5rem;
+  }
+
+  h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+  }
+
+  h5{
+    font-family: 'Alata', sans-serif;
+
+  }
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+  }
+
+  .quote {
+    padding: 3% 0 5%;
+    font-family: 'Alata', sans-serif;
+    font-size: 3rem;
+  }
+
+  .testimonial-text{
+    font-size: 2.5rem;
+  }
+
+  .hobbies-title{
+    font-size: 3rem;
+  }
+
+  .hobbies-subtitle {
+    font-size: 2rem;
+  }
+
+  .icon-2 {
+    font-size: 4rem;
+  }
+
+}
