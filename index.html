@@ -24,8 +24,8 @@
 <body>
 
   <!-- Header & Nav Bar -->
-  <section id="title">
-    <div class="container-fluid">
+  <section id="start-title">
+    <div class="container-main">
       <div class="row">
         <div class="col name-position">
           <img class='name' src="images/jianbin.png" alt="">
@@ -37,7 +37,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav nav-title">
-            <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
             <a class="nav-link" href="work.html">Work </a>
             <a class="nav-link" href="contact.html">Contact</a>
           </div>
@@ -61,181 +61,196 @@
 
   <!-- Content -->
   <section id="inspiration">
-    <div class="row">
-      <div class="col content-desc">
-        <h4> This site only has ONE purpose:</h4>
-        <i class="icon fas fa-heartbeat"></i>
-        <p class="quote"> to make you fall in love with <del>me</del> my work</p>
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <p class="title"> This site only has ONE purpose:</p>
+          <i class="icon fas fa-heartbeat"></i>
+          <p class="quote"> to make you fall in love with <del>me</del> my work</p>
+        </div>
 
+      </div>
     </div>
   </section>
 
   <section id="skills">
-    <div class="row skills-intro">
-      <h4 class="skills-title">I do...</h4>
-    </div>
-    <div class="row skillset">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <i class="icon-2 fas fa-laptop"></i>
-        <h3>Front-End</h3>
-        <p>Designing you a kickass website and developing it from scratch that looks better than my face <br><em>(Honestly not a very high bar)</em> </p>
+    <div class="container-fluid">
+      <div class="row">
+        <p class="title title-white">I do...</p>
       </div>
-      <div class="col-lg-6 col-sm-6">
-        <i class="icon-2 fas fa-upload"></i>
-        <h3>Back-End</h3>
-        <p>Developing complicated machine learning algorithms that even I don't understand <br> <em> (I'm kidding, I do understand)</em> </p>
-      </div>
+      <div class="row skillset">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <i class="icon-2 fas fa-laptop"></i>
+          <h3>Front-End</h3>
+          <p>Designing you a kickass website and developing it from scratch that looks better than my face <br><em>(Honestly not a very high bar)</em> </p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <i class="icon-2 fas fa-upload"></i>
+          <h3>Back-End</h3>
+          <p>Developing complicated machine learning algorithms that even I don't understand <br> <em> (I'm kidding, I do understand)</em> </p>
+        </div>
 
+      </div>
     </div>
+
 
   </section>
 
   <!-- Testimonials -->
   <section id="testimonials">
-    <div class="testimonial-title">
-      <h4 class="test-title">Don't believe me?</h4>
-      <p class="review-subtitle"> <em>Check out my reviews!</em></p>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>His work always satisfies in many ways. Many many many ways.</h2>
-          <img class='testimonial' src="images/toby.png" alt="toby">
-          <em>Toby Cheng, Hong Kong</em>
-        </div>
-        <div class="carousel-item">
-          <h2 class="testimonial-text">Let's go jaybow!</h2>
-          <img class="testimonial" src="images/jake.png" alt="jake">
-          <em>Jake, Chicago</em>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="row">
-      <div class="col schools">
-        <a href="https://rady.ucsd.edu/"><img class="school-icon" src="images/rady.png" alt=""> </a>
-        <a href="https://bschool.nus.edu.sg/"><img class="school-icon" src="images/nus.png" alt=""> </a>
-      </div>
 
+    <div class="container-fluid">
+      <div class="testimonial-title">
+        <p class="title title-white">Don't believe me?</p>
+        <p class="subtitle subtitle-white"> <em>Check out my reviews!</em></p>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>His work always satisfies in many ways. Many many many ways.</h2>
+            <img class='testimonial' src="images/toby.png" alt="toby">
+            <em>Toby Cheng, Hong Kong</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">Let's go jaybow!</h2>
+            <img class="testimonial" src="images/jake.png" alt="jake">
+            <em>Jake, Chicago</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col schools">
+          <a href="https://rady.ucsd.edu/"><img class="school-icon" src="images/rady.png" alt=""> </a>
+          <a href="https://bschool.nus.edu.sg/"><img class="school-icon" src="images/nus.png" alt=""> </a>
+        </div>
+
+      </div>
     </div>
+
 
   </section>
-
+  <!-- Hobbies -->
   <section id='hobbies'>
-    <div class="hobbies-intro">
-      <h4 class="hobbies-title">What I do for fun!</h4>
-      <p class="hobbies-subtitle"> <em>I have a life you know...</em></p>
+    <div class="container-fluid">
+      <div class="hobbies-intro">
+        <p class="title title-hobbies">What I do for fun!</p>
+        <p class="subtitle"> <em>I have a life you know...</em></p>
+      </div>
 
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="card-group">
+            <div class="card">
+              <img src="images/powerlift.jpg" class="card-img-top" alt="powerlift">
+              <div class="card-body">
+                <h5 class="card-title">Powerlifting</h5>
+                <p class="card-text">I smash keyboards and big weights</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/emcee.jpg" class="card-img-top" alt="emcee">
+              <div class="card-body">
+                <h5 class="card-title">Emcee</h5>
+                <p class="card-text">I've been told that I am pretty amusing </p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/dance.jpg" class="card-img-top" alt="dance">
+              <div class="card-body">
+                <h5 class="card-title">Dance</h5>
+                <p class="card-text">*bass bass bass tick tick boom </p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="card-group">
-          <div class="card">
-            <img src="images/powerlift.jpg" class="card-img-top" alt="powerlift">
-            <div class="card-body">
-              <h5 class="card-title">Powerlifting</h5>
-              <p class="card-text">I smash keyboards and big weights</p>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/emcee.jpg" class="card-img-top" alt="emcee">
-            <div class="card-body">
-              <h5 class="card-title">Emcee</h5>
-              <p class="card-text">I've been told that I am pretty amusing </p>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/dance.jpg" class="card-img-top" alt="dance">
-            <div class="card-body">
-              <h5 class="card-title">Dance</h5>
-              <p class="card-text">*bass bass bass tick tick boom </p>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
         </div>
 
       </div>
-
     </div>
+
 
   </section>
 
   <section id="price">
-    <div class="price-intro">
-      <h4 class="price-title">I am not free though!</h4>
-      <p class="price-subtitle"> <em>Okay, maybe just a teeennnyyy bit...</em></p>
-    </div>
-    <div class="container">
-      <form action="mailto:liewjianbin94@gmail.com" method="post">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Free</h4>
+    <div class="container-fluid">
+      <div class="price-intro">
+        <p class="title title-white">I am not free though!</p>
+        <p class="subtitle subtitle-white"> <em>Okay, maybe just a teeennnyyy bit...</em></p>
+      </div>
+      <div class="container">
+        <form action="mailto:liewjianbin94@gmail.com" method="post">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">0 <small class="text-muted"> praises / hr</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 project per month</li>
+                  <li>2 GB of mind space</li>
+                  <li>Email support</li>
+                  <li>Complain center access</li>
+                </ul>
+                <button type="submit" class="btn btn-lg btn-block btn-dark">Sign up for free</button>
+              </div>
             </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">0 <small class="text-muted"> praises / hr</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>1 project per month</li>
-                <li>2 GB of mind space</li>
-                <li>Email support</li>
-                <li>Complain center access</li>
-              </ul>
-              <button type="submit" class="btn btn-lg btn-block btn-dark">Sign up for free</button>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">5 <small class="text-muted"> praises / hr</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of mind space</li>
+                  <li>Priority email support</li>
+                  <li>Jokes center access</li>
+                </ul>
+                <button type="submit" class="btn btn-lg btn-block btn-outline-dark">Get started</button>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">10 <small class="text-muted">praises / hr</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of mind space</li>
+                  <li>Phone & email support</li>
+                  <li>Jokes center access</li>
+                </ul>
+                <button type="submit" class="btn btn-lg btn-block btn-outline-dark">Contact us</button>
+              </div>
             </div>
           </div>
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Pro</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">5 <small class="text-muted"> praises / hr</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of mind space</li>
-                <li>Priority email support</li>
-                <li>Jokes center access</li>
-              </ul>
-              <button type="submit" class="btn btn-lg btn-block btn-outline-dark">Get started</button>
-            </div>
-          </div>
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">10 <small class="text-muted">praises / hr</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of mind space</li>
-                <li>Phone & email support</li>
-                <li>Jokes center access</li>
-              </ul>
-              <button type="submit" class="btn btn-lg btn-block btn-outline-dark">Contact us</button>
-            </div>
-          </div>
-        </div>
-      </form>
+        </form>
 
+      </div>
     </div>
+
   </section>
 
 
-  <section id="contactme">
+  <footer id="contactme">      
+    </div>
     <div class="contact row">
       <div class="col">
         <p>Find me on:</p>
@@ -252,7 +267,7 @@
 
     </div>
 
-  </section>
+  </footer>
 
 
 
