@@ -191,6 +191,10 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.contact-button:hover{
+  text-decoration: none;
+}
+
 /* Socials */
 #contactme {
   background-color: #fbd46d;
@@ -206,7 +210,32 @@ p {
 
 .contact {
   padding-top: 0;
+}
 
+#contactme.blue{
+  background-color: #4f8a8b;
+}
+
+/* Work Page */
+.skill-icons {
+  width: 100px;
+  padding: 3% 2% 0;
+}
+
+.skills-title {
+  padding: 10% 0 0;
+}
+
+.git-title{
+  padding-top: 0;
+}
+
+.git-row{
+  padding: 7%;
+}
+
+.center-btn {
+  text-align: center;
 }
 
 /* Media Query */
@@ -231,6 +260,10 @@ p {
 
   .icon-2 {
     font-size: 4rem;
+  }
+
+  .skill-icons {
+    width: 150px;
   }
 
 }
